@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "r-prf.s3.ap-southeast-2.amazonaws.com"
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: "r-prf.s3.ap-southeast-2.amazonaws.com",
+        port: "",
+      }
     ],
   },
 };

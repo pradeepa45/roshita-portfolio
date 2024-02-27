@@ -10,9 +10,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 35, 51, 73;
-    --background-end-rgb: 35, 51, 73;
+    --foreground-rgb: 238, 218, 209;
+    --background-start-rgb: 13, 20, 28;
+    --background-end-rgb: 13, 20, 28;
+    --brown-sugar: 199, 108, 67;
+    --mint-cream: 234, 242, 239;
   }
 }
 
