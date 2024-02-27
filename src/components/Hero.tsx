@@ -4,7 +4,6 @@ import Button from '@/common/Form/Button'
 import scroller from '@/hooks/scroller'
 import Image from 'next/image'
 
-import img from '@/smt.svg'
 import { ChevronsDown } from 'react-feather'
 
 export default function Hero() {
@@ -25,7 +24,13 @@ export default function Hero() {
           Checkout my projects
         </Button>
       </div>
-        <Image src='https://r-prf.s3.ap-southeast-2.amazonaws.com/images/hero-bg.svg' fill alt="" className='object-cover' />
+        <Image 
+          src='https://r-prf.s3.ap-southeast-2.amazonaws.com/images/hero-bg.svg' 
+          fill 
+          alt="" 
+          className='object-cover'
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
     </div>
   )
 }

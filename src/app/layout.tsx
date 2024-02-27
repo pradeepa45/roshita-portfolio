@@ -10,8 +10,8 @@ import classNames from 'classnames'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Roshita Seelam",
-  description: "Portfolio",
+  title: "Roshita Seelam | Portfolio",
+  description: "Data analyst / Business analyst Portfolio",
 };
 
 export default function RootLayout({
@@ -26,7 +26,6 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      
     </html>
   );
 }
