@@ -26,7 +26,7 @@ export default function Hero() {
           {socials.map(p => {
             const IconComponent = iconMap[p.icon];
             return (
-              <Button key={p.slug} className='border border-light rounded-full p-4 flex items-center'>
+              <Button key={p.slug} className='border border-text-primary rounded-full p-4 flex items-center'>
                 <Link href={p.url}>
                   <IconComponent />
                 </Link>
@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
         <Button 
           onClick={() => { scroller.to('projects') }} 
-          className='font-medium py-3 px-6 rounded-full border border-light hover:bg-light hover:text-primary animate-bounce'
+          className='font-medium py-3 px-6 rounded-full border border-text-primary hover:bg-text-primary hover:text-primary animate-bounce'
           icon={<ChevronsDown size={24} className='ml-1' />}
         >
           Checkout my projects

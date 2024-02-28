@@ -10,7 +10,7 @@ export default function Tiles() {
           className="md:basis-1/3 group hover:no-underline hover:cursor-pointer max-h-[375px] basis-1/2"
           key={index}
         >
-            <div className="bg-light px-6 sm:py-16 py-6 rounded-xl border border-light flex flex-col overflow-hidden
+            <div className="bg-text-primary px-6 sm:py-16 py-6 rounded-xl border border-text-primary flex flex-col overflow-hidden
               shadow-sm hover:shadow-md m-2 text-secondary"
             >
               <div className="flex sm:justify-start sm:mb-0 mb-2 group-hover:transition-all

@@ -5,7 +5,7 @@ import ScrollElement from '@/common/Scroll/Element'
 
 export default function Footer() {
   return (
-    <ScrollElement name='about' className='sm:px-8 bg-light text-secondary px-4'>
+    <ScrollElement name='about' className='sm:px-8 bg-text-primary text-secondary px-4'>
       <div className='flex md:justify-end w-full py-12 border-b border-secondary lg:gap-12 sm:gap-4 gap-0 flex-wrap justify-center flex-row-reverse sm:flex-row'>
         <div className='flex flex-col items-end basis-1/2 sm:basis-auto'>
           <p className='sm:text-2xl font-black sm:mb-6 mb-2 text-sm border-b border-secondary '>Contact</p>

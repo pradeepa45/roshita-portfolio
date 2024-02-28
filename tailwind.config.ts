@@ -11,8 +11,8 @@ const config: Config = {
       colors: {
         primary: 'rgb(var(--background-start-rgb))',
         secondary: 'rgb(var(--brown-sugar))',
-        light: 'rgb(var(--foreground-rgb))',
-        'pink-text': 'rgb(var(--mint-cream))'
+        'text-primary': 'rgb(var(--foreground-rgb))',
+        'text-secondary': 'rgb(var(--mint-cream))'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
