@@ -1,5 +1,6 @@
-import { techstack } from '@/constants/tech'
 import { Compass } from 'react-feather'
+
+const techstack = [{name: '', description: ''}]
 
 export default function Tiles() {
   return (
@@ -20,11 +21,11 @@ export default function Tiles() {
               </div>
               <p className="text-xl sm:mt-4 font-bold sm:group-hover:transition-all sm:group-hover:translate-y-[-90px]
                 group-hover:duration-500 group-hover:ease-in-out transition-none mt-0"
-              >{tile.name}
+              >{tile?.name}
               </p>
               <p className="h-0 opacity-0 sm:block sm:group-hover:transition-all sm:group-hover:translate-y-[-85px] text-sm
                   sm:group-hover:duration-500 sm:group-hover:ease-in-out group-hover:opacity-100 transition-none hidden"
-              >{tile.description}
+              >{tile?.description}
               </p>
             </div>
           </div>

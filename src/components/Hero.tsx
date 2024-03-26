@@ -7,6 +7,7 @@ import scroller from '@/hooks/scroller';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronsDown, Linkedin, GitHub, Icon } from 'react-feather';
+import { bio } from '@/constants/bio'
 
 const iconMap: Record<string, Icon> = { // Add Record<string, Icon> type for iconMap
   'linkedin': Linkedin,
@@ -18,9 +19,9 @@ export default function Hero() {
     <div className='flex relative items-center'>
       <div className="flex flex-col items-center justify-center w-full min-h-screen -mt-10 gap-4 hero z-10">
         <h1 className='text-7xl'>Hola!</h1>
-        <div className='md:w-1/2 md:px-0 px-4'>
+        <div className='md:w-2/3 md:px-0 px-4'>
           <p className='md:py-6 text-center'>
-            Nam sit amet magna id orci placerat facilisis. Etiam orci metus, condimentum facilisis imperdiet non, convallis quis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ac nunc commodo, consequat leo nec, dictum purus. Phasellus at porta eros. Etiam tristique egestas tellus vitae congue. Nam ut maximus.
+            {bio}
           </p>
           <div className='flex items-center justify-center gap-4 my-8'>
           {socials.map(p => {
